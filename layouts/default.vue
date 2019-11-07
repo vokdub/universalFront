@@ -40,6 +40,9 @@ a{
 .justify-content-between{
 	justify-content: space-between;
 }
+.align-center{
+	text-align: center;
+}
 header{
 }
 .linkToMain{
@@ -109,5 +112,10 @@ nav a {
 	font-size: 1.5em;
 	background: rgba(0,0,0,0.5);
 }
-
+.ourClients{
+	text-align: center;
+}
+.ourClients img{
+	width: 80%;
+}
 </style>
