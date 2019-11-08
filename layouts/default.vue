@@ -1,10 +1,20 @@
 <template>
 	<div>
 		<header>
-			<div class="container flex">  
-				<nuxt-link class="linkToMain" to="/">
-					<img class="logo" src="logo-min.png" alt="universal-stroy">
-				</nuxt-link>
+			<div class="SeaGreen">	
+				<div class="container flex">  
+					<nuxt-link class="linkToMain" to="/">
+						<img class="logo" src="logo-min.png" alt="universal-stroy">
+					</nuxt-link>
+
+					<form action="">
+						<input type="text">
+					<input type="submit" value="🔍">
+				</form>
+				<button class="RequestCallBtn">Заказать звонок</button>
+				</div>
+			</div>
+			<div class="container flex">
 				<nav>
 					<nuxt-link to="/goods">Продукция</nuxt-link>
 					<nuxt-link to="/ourworks">Наши работы</nuxt-link>
@@ -60,7 +70,14 @@ a{
 .two-columns{
 	width: 50%;
 }
+.SeaGreen{
+	background: SeaGreen;
+}
+
+
 header{
+	box-shadow: 0 6px 2px -2px silver;
+	margin-bottom: 6px;
 }
 .linkToMain{
 	width: 10%;
@@ -77,7 +94,7 @@ nav a {
 .phoneNumber{
 	font-size: 1.5em;
 	font-weight: 600;
-
+	margin: 0.5em;
 }
 /*MAIN*/
 .banner{
@@ -160,6 +177,18 @@ footer .two-columns{
 }
 .RequestCallBtn:hover{
 	cursor: pointer;
+	background: DarkOrange;
+}
+
+
+
+							/*GOODS*/
+aside{
+	width: 20%;
+	background: SeaGreen;
+}
+.hasAside{
+	width: 80%;
 	background: DarkOrange;
 }
 
