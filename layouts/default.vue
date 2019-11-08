@@ -16,6 +16,20 @@
 			</div>
 		</header>
 		<nuxt />
+		<footer>
+			<div class="container flex justify-content-between">
+				<div class="two-columns">
+					<h2>Свяжитесь с нами прямо сейчас и получите
+					бесплатную консультация специалиста</h2>
+					<button class="RequestCallBtn">Заказать звонок</button>
+				</div>
+				<div class="two-columns">
+					<p class="phoneNumber">(812) 992-92-92</p>
+					<p>Работаем с 8 до 23 каждый день</p>
+					<a href="">zakaz@universal-stroyspb.ru</a>				
+				</div>
+			</div>
+		</footer>
 	</div>
 </template>
 
@@ -42,6 +56,9 @@ a{
 }
 .align-center{
 	text-align: center;
+}
+.two-columns{
+	width: 50%;
 }
 header{
 }
@@ -78,6 +95,7 @@ nav a {
 	border: 2px solid orange;
 	width: 10%;
 	height: 2.5em;
+	cursor: pointer;
 }
 .categoriesTile{	
 	-webkit-flex-wrap: wrap;
@@ -99,6 +117,7 @@ nav a {
 }
 .categoriesTile_elem:hover .properties{
 	display: block;
+	cursor: pointer;
 }
 .properties{
 	box-sizing: border-box;
@@ -118,4 +137,30 @@ nav a {
 .ourClients img{
 	width: 80%;
 }
+footer{
+	font-size: 1.2em;
+	color: white;
+	background: SeaGreen;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer .two-columns{
+	box-sizing: border-box;
+	padding: 2em;
+}
+.RequestCallBtn{
+	width: 10em;
+	height: 3em;
+	border: none;
+	border-radius: 0.3em;
+	color: white;
+	background: orange;
+}
+.RequestCallBtn:hover{
+	cursor: pointer;
+	background: DarkOrange;
+}
+
 </style>
