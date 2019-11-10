@@ -2,19 +2,19 @@
 	<div>
 		<header>
 			<div class="SeaGreen">	
-				<div class="container flex">  
+				<div class="container flex vertical-center">  
 					<nuxt-link class="linkToMain" to="/">
 						<img class="logo" src="logo-min.png" alt="universal-stroy">
 					</nuxt-link>
 
 					<form action="">
 						<input type="text">
-					<input type="submit" value="🔍">
-				</form>
-				<button class="RequestCallBtn">Заказать звонок</button>
+						<input type="submit" value="🔍">
+					</form>
+					<button class="RequestCallBtn">Заказать звонок</button>
 				</div>
 			</div>
-			<div class="container flex">
+			<div class="container flex vertical-center">
 				<nav>
 					<nuxt-link to="/goods">Продукция</nuxt-link>
 					<nuxt-link to="/ourworks">Наши работы</nuxt-link>
@@ -27,7 +27,7 @@
 		</header>
 		<nuxt />
 		<footer>
-			<div class="container flex justify-content-between">
+			<div class="container flex justify-content-between vertical-center">
 				<div class="two-columns">
 					<h2>Свяжитесь с нами прямо сейчас и получите
 					бесплатную консультация специалиста</h2>
@@ -36,10 +36,12 @@
 				<div class="two-columns">
 					<p class="phoneNumber">(812) 992-92-92</p>
 					<p>Работаем с 8 до 23 каждый день</p>
+					<p>СПБ, Купчино, ул. Пушкина 7</p>					
+					<p>Работаем по всему СЗФО</p>
 					<a href="">zakaz@universal-stroyspb.ru</a>				
 				</div>
 			</div>
-		</footer>
+		</footer> 
 	</div>
 </template>
 
@@ -57,9 +59,11 @@ a{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	justify-content: space-between;
+}
+.vertical-center{	
 	-ms-align-items: center;
 	align-items: center;
-	justify-content: space-between;
 }
 .justify-content-between{
 	justify-content: space-between;
@@ -182,14 +186,40 @@ footer .two-columns{
 
 
 
-							/*GOODS*/
+/*GOODS*/
 aside{
 	width: 20%;
-	background: SeaGreen;
+	/*background: SeaGreen;*/
 }
 .hasAside{
 	width: 80%;
-	background: DarkOrange;
+	/*background: DarkOrange;*/
+}
+.breadcrumbs ul li{
+	display: inline;	
+}
+.filter{
+	height: 30vh;
+	background: #777;
+}
+.goods{
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.goodsTile_elem{
+	width: 32%;
+}
+.goodsTile_elem img{
+	width: 100%;
+}
+.goodsTile_elem > p{
+	text-align: left;
+}
+.showMore{
+	text-align: center;
 }
 
 </style>

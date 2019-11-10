@@ -1,6 +1,6 @@
 <template>
-	<div class="categoriesTile flex">
-		<div class="categoriesTile_elem">
+	<div class="categoriesTile flex vertical-center align-center">
+		<nuxt-link to="/goods" class="categoriesTile_elem">
 			<div class="category">
 				<img src="house-min.jpg" alt="">
 				<div class="properties">
@@ -10,7 +10,7 @@
 				</div>
 			</div>
 			<h3>Дома</h3>
-		</div>
+		</nuxt-link>
 		<div class="categoriesTile_elem">
 			<div class="category">
 				<img src="house-min.jpg" alt="">
