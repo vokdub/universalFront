@@ -46,6 +46,9 @@
 </template>
 
 <style>
+*{
+	font-family: sans-serif;
+}
 a{
 	text-decoration: none;
 }
@@ -100,7 +103,7 @@ nav a {
 	font-weight: 600;
 	margin: 0.5em;
 }
-/*MAIN*/
+																	/*MAIN*/
 .banner{
 	background: #777;
 	box-sizing: border-box;
@@ -186,14 +189,12 @@ footer .two-columns{
 
 
 
-/*GOODS*/
+															/*GOODS*/
 aside{
 	width: 20%;
-	/*background: SeaGreen;*/
 }
 .hasAside{
 	width: 80%;
-	/*background: DarkOrange;*/
 }
 .breadcrumbs ul li{
 	display: inline;	
@@ -221,5 +222,10 @@ aside{
 .showMore{
 	text-align: center;
 }
-
+																/*ASIDE*/
+aside li{
+	list-style: none;
+	font-size: 1.5rem;
+	margin: 0.8em 0;
+}
 </style>
