@@ -186,12 +186,10 @@ footer .two-columns{
 	cursor: pointer;
 	background: DarkOrange;
 }
-
-
-
 															/*GOODS*/
 aside{
 	width: 20%;
+	margin-right: 3em;
 }
 .hasAside{
 	width: 80%;
@@ -208,7 +206,10 @@ aside{
 	-moz-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	-o-flex-wrap: wrap;
-	flex-wrap: wrap;
+	flex-wrap: wrap	
+}
+.goods:nth-child(3n+2){
+	background: green;
 }
 .goodsTile_elem{
 	width: 32%;
@@ -227,5 +228,19 @@ aside li{
 	list-style: none;
 	font-size: 1.5rem;
 	margin: 0.8em 0;
+}
+aside img{
+	width: 80%;
+}
+.reсentlyViewed{
+	margin-top: 5em;
+}
+.reсentlyViewed p{
+	margin-bottom: 0;
+}
+.reсentlyViewed div{
+	background: Gainsboro;
+	text-align: center;
+	padding: 2em 0;
 }
 </style>

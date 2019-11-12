@@ -1,6 +1,6 @@
 <template>
 	<div class="goods flex vertical-center align-center">					
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
@@ -8,7 +8,7 @@
 				</div>
 				<p>description</p>
 			</nuxt-link>
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
@@ -16,7 +16,7 @@
 				</div>
 				<p>description</p>
 			</nuxt-link>
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
@@ -24,7 +24,7 @@
 				</div>
 				<p>description</p>
 			</nuxt-link>
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
@@ -32,7 +32,7 @@
 				</div>
 				<p>description</p>
 			</nuxt-link>
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
@@ -40,15 +40,7 @@
 				</div>
 				<p>description</p>
 			</nuxt-link>
-			<nuxt-link to="/" class="goodsTile_elem">
-				<img src="house1-min.png" alt="">
-				<div class="flex justify-content-between">
-					<p>Name</p>
-					<p>Price</p>
-				</div>
-				<p>description</p>
-			</nuxt-link> 
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
@@ -56,7 +48,7 @@
 				</div>
 				<p>description</p>
 			</nuxt-link>
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
@@ -64,14 +56,14 @@
 				</div>
 				<p>description</p>
 			</nuxt-link>
-			<nuxt-link to="/" class="goodsTile_elem">
+			<nuxt-link to="/house" class="goodsTile_elem">
 				<img src="house1-min.png" alt="">
 				<div class="flex justify-content-between">
 					<p>Name</p>
 					<p>Price</p>
 				</div>
 				<p>description</p>
-			</nuxt-link>  
+			</nuxt-link>
 		</div>
 </template>
 

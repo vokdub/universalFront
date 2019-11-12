@@ -1,4 +1,5 @@
 <template>
+	<div>a tut hui</div>
 </template>
 
 <script>

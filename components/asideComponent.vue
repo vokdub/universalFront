@@ -10,6 +10,21 @@
 				<li>Блок-контейнеры</li>
 				<li>Ареда</li>
 			</ul>
+			<div class="reсentlyViewed">
+				<h2>Вы смотрели</h2>
+				<div>
+					<img src="recent-min.png" alt="">
+					<p>Дом №6</p>
+				</div>
+				<div>
+					<img src="recent-min.png" alt="">
+					<p>Дом №6</p>
+				</div>
+				<div>
+					<img src="recent-min.png" alt="">
+					<p>Дом №6</p>
+				</div>
+			</div>
 		</aside>
 </template>
 
